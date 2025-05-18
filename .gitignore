@@ -1,0 +1,47 @@
+# ====================
+# System & IDE files
+# ====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ====================
+# Build output
+# ====================
+bin/
+obj/
+out/
+dist/
+
+# ====================
+# Temporary data files
+# ====================
+
+# Auto-saved/open Excel files
+~$*.xlsx
+~$*.xls
+
+# Temp Excel exports and backups
+*.tmp.xlsx
+*.bak.xlsx
+*.tmp.csv
+*.bak.csv
+
+# Jupyter and analysis outputs
+*.ipynb_checkpoints
+*.log
+*.tmp
+*.out
+
+# Temp data folders
+tmp/
+temp/
+__output__/
+cache/
+
+# ====================
+# OS metadata folders
+# ====================
+ehthumbs.db
+desktop.ini
