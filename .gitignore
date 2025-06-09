@@ -1,13 +1,19 @@
 # ====================
-# System & IDE files
+# System / OS files
 # ====================
 .DS_Store
 Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ====================
+# IDE / Editor files
+# ====================
 .vscode/
 .idea/
 
 # ====================
-# Build output
+# Build / Output folders
 # ====================
 bin/
 obj/
@@ -15,35 +21,30 @@ out/
 dist/
 
 # ====================
-# Temporary data files
+# Temporary / Cache folders
 # ====================
-
-# Auto-saved/open Excel files
-~$*.xlsx
-~$*.xls
-
-# Temp Excel exports and backups
-*.tmp.xlsx
-*.bak.xlsx
-*.tmp.csv
-*.bak.csv
-
-# Jupyter and analysis outputs
-*.ipynb_checkpoints
-*.log
-*.tmp
-*.out
-
-# Temp data folders
 tmp/
 temp/
 __output__/
 cache/
 
 # ====================
-# OS metadata folders
+# Temp / Backup files
 # ====================
-ehthumbs.db
-desktop.ini
-Graphics
-Quries
+*.tmp
+*.bak
+*.log
+*.out
+
+# Excel autosaves and temp
+~$*.xls*
+*.tmp.xlsx
+*.bak.xlsx
+*.tmp.csv
+*.bak.csv
+
+# ====================
+# Project-specific folders
+# ====================
+Presentations/
+Graphics/
